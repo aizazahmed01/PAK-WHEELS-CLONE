@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" type="image/png" href="img.png">
+    <title>LOGIN PAGE</title>
+    
+</head>
+<body class="bg">
+    
+    <section>
+    <div>
+        <div class="h1">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1>LOGIN HERE FIRST !</h1> <br>
+    </div>
+    <div>
+    <p> EMAIL</p>
+    <input id="userInput" class="box" placeholder="eg: Ali,Usman"><br>  <br>
+    <div class="input-box">PASSWORD <br><br> 
+    <input type="password" placeholder="Password"><br>  <br>
+
+    <span class="eye" oneclick="myFunction()">
+        <i id="hide1" class="fa fa-eye"></i>
+        <i id="hide2" class="fa fa-eye-slash"></i>
+
+
+    </span>
+    <a href="index.html"><button oneclick="myFunction()" class="btn" > SUBMIT </button></a>
+    <h1 id="message"> </h1></section><br>
+    <br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+</div>
+    
+    
+    
+    <script>
+    function myFunction(){
+        var x=document.getElementById("myInput");
+        var y=document.getElementById("hide1");
+        var z=document.getElementById("hide2");
+        
+        if(x.type == 'password'){
+            x.type = 'text';
+            y.style.display = block;
+            z.style.display = none;
+        }
+    else{
+        x.type = 'password';
+            y.style.display = none;
+            z.style.display = block;
+    }
+    }
+        </script>
+</div>
+</div>
+</body>
+</html>

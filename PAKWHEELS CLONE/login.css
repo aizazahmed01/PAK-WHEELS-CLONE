@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(0, 0, 0); text-align: center; color: floralwhite;
+}
+.h1{
+    background: linear-gradient(to right, #ffffff 0%, #a70606 100%);
+    background-clip: text;
+    color: transparent;
+
+}
+.login{
+    border-color: rgb(67, 66, 66);
+    border-width: 20px;
+}
+.btn{
+    background-color: #e31f1f;
+    height: 32px;
+    border-radius: 17px;
+    border-color: rgb(21, 21, 21);
+}
+.bg{
+    background-image: url(login2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+#hide1{
+    display: none;
+}
